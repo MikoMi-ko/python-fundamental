@@ -11,3 +11,13 @@ print('"Oke Ibu"')
 print("Budi pergi ke toko dan membeli 6 susu")
 print('"Lhoh ko beli 6 susunya? Ibu kan minta cuma 1 saja"')
 print('"Kan mereka punya telor bu"')
+
+# Percabangan
+jumlah_susu = 10
+
+if jumlah_susu > 0:
+    print("Budi membeli susu 1 botol")
+else:
+    print("Budi tidak jadi membeli susu")
+
+print("Budi selesai berbelanja dan pulang ke rumah")
