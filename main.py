@@ -38,5 +38,5 @@ else:
         print('"Sama-sama bu"')
     else:
         print('"Lhoh ko beli 6 susunya? Ibu kan minta cuma 1 saja"')
-        print('"Kan mereka punya telor bu"')
+        print('"Karena mereka punya telor bu"')
 
