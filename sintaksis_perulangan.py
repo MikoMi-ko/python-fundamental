@@ -13,4 +13,4 @@ for jumlah_buku_yang_sudah_dibaca in range(1, jumlah_buku+1):
     print(f"Buku ke {jumlah_buku_yang_sudah_dibaca} sudah dibaca")
 
 #Budi selesai membaca buku
-print(f"Budi sudah membaca semua {jumlah_buku} buku yang Budi punya")
+print(f"Budi sudah membaca semua {jumlah_buku_yang_sudah_dibaca} buku yang Budi punya")
