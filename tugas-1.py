@@ -3,25 +3,35 @@
 print('"Budi, belikan ibu sebotol susu, kalo mereka punya telor beli 6 ya"')
 print('"Oke Ibu"')
 
-# Sampai di toko
-susu = True
-telor = True
-if susu:
-    print('Budi membeli 1 susu')
-    if telor:
-        print('Budi melihat ada telor')
-        print('Budi membeli 5 susu lagi')
-else:
-    print('Budi tidak membeli susu karena susu tidak ada')
+jumlah_susu = 3
+jumlah_telur = 1
+print(f"Toko mempunyai {jumlah_telur} butir telur")
+print(f"Toko mempunyai {jumlah_susu} botol susu")
 
-print('Budi pulang ke rumah')
-print('"Ini belanjaannya bu"')
-
-# Respon ibu
-if susu:
-    print('"Oke terimakasih Budi"')
-    if telor:
-        print('"Lhoh kog beli 6 susu?"')
-        print('"Karena mereka punya telor bu"')
+if jumlah_susu > 0:
+    print("Budi mengecek jumlah uang dan cukup untuk berbelanja")
+    if jumlah_telur >= 1 and jumlah_susu >= 6:
+        print("Budi membeli 6 botol susu")
+        print("Budi selesai berbelanja dan pulang ke rumah")
+    else:
+        print("Budi membeli 1 botol susu")
+        print("Budi selesai berbelanja dan pulang ke rumah")
 else:
-    print('"Coba ke toko lain Budi"')
+    print("Ternyata toko tidak mempunyai susu")
+    print("Budi pulang ke rumah")
+
+if jumlah_susu == 0:
+    print('"Susunya kosong bu"')
+    print('"Ohh yasudah, terimakasih Budi"')
+else:
+    if jumlah_telur == 0:
+        print('"Terimakasih Budi')
+        print('"Sama-sama bu"')
+    else:
+        if jumlah_susu < 6:
+            print('"Terimakasih Budi')
+            print('"Sama-sama bu"')
+        else:
+            print('"Lhoh ko beli 6 susunya? Ibu kan minta cuma 1 saja"')
+            print('"Karena mereka punya telor bu"')
+
