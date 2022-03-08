@@ -1,5 +1,5 @@
 """
-Program perulangan membaca buku
+Program perulangan membaca buku dengan for
 """
 print('Ibu menyuruh Budi untuk belajar')
 print('"Budi, baca semua buku-buku kamu!"')
